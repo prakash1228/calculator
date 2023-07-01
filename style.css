@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-body {
+    display: block;
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+    padding: 1vh;
+}
+.display {
+    margin-left: 2vw;
+    height: 6vh;
+    width: 36vw;
+    border: 1px solid black;
+}
+.buttons {
+    display: grid;
+    margin-top: 2vh;
+    border: 1px solid black;
+    padding: 10px;
+}
+.button {
+    border: 1px solid black;
+    height: 5vh;
+    margin: 3px;
+    width: 8vw;
+    text-align: center;
+}
